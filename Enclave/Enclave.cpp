@@ -1,11 +1,8 @@
 #include "Enclave_t.h"
 #include "sgx_trts.h"
 #include "sgx_urts.h"
-#include <string.h>
 #include <cstdlib>
 #include <string.h>
-
-using namespace std;
 
 
 void hello(int *a, char *c){
