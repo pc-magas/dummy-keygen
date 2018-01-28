@@ -1,7 +1,10 @@
+
+
 enclave {
 
+
   trusted {
-    public void sum([in] int *a, [in] int *b, [out] int *sum);
+    public void hello ([in]int *a, [out] char *c);
   };
 
   untrusted {
